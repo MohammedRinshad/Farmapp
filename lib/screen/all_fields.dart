@@ -26,11 +26,12 @@ class _FarmRadioButtonState extends State<FarmRadioButton> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.white,
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20),
             child: GestureDetector(
-              child: const Icon(Icons.login_outlined),
+              child: const Icon(Icons.login_outlined,color: Colors.black,),
               onTap: () {
                 Navigator.pushReplacement(
                     context,
