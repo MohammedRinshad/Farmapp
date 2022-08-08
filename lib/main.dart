@@ -1,4 +1,5 @@
 import 'package:farm/screen/Dairy/dairy_screen.dart';
+import 'package:farm/screen/login/login_screen.dart';
 import 'package:farm/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: appRoutes(),
       onGenerateRoute: onAppGenerateRoute(),
-      initialRoute: FarmRadioButton.route,
+      initialRoute: LoginScreen.route,
     );
   }
 }
